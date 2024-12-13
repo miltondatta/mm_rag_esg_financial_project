@@ -4,3 +4,5 @@ downloads_vdo
 pdf
 extracted_data
 config.json
+saved_model
+bart_large_cnn
