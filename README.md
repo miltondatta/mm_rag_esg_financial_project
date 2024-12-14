@@ -22,3 +22,13 @@ tokenizer = AutoTokenizer.from_pretrained(model_name,cache_dir="/home/pms/llm_pr
 ```bash
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name,force_download=True,cache_dir="/home/pms/llm_project/mm_rag_esg_financial_project/saved_model")
 ```
+
+## To load model from saved location, follow these steps
+
+```bash
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+model_name = "facebook/bart-large-cnn"
+tokenizer = AutoTokenizer.from_pretrained(model_name,cache_dir="/home/pms/llm_project/mm_rag_esg_financial_project/saved_model")
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name,cache_dir="/home/pms/llm_project/mm_rag_esg_financial_project/saved_model")
+```
