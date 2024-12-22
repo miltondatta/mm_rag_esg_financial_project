@@ -7,3 +7,4 @@ config.json
 saved_model
 bart_large_cnn
 images
+faiss_index
