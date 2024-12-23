@@ -8,3 +8,4 @@ saved_model
 bart_large_cnn
 images
 faiss_index
+faiss_index_01
