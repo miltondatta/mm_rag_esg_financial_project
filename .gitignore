@@ -9,3 +9,5 @@ bart_large_cnn
 images
 faiss_index
 faiss_index_01
+extracted_data_01
+extracted_pdf_data.pkl
